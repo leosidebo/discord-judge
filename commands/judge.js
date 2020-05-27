@@ -4,7 +4,7 @@ module.exports = {
     execute(message, args) {
         const links = require('../imageLinks.json').links;
         const linkToSend = randomNumber(links.length)
-        const taggedUser = message.mentions.users.first();
+        const taggedUser = message.mentions.users.first(); // more work here
 
         message.channel.send(links[linkToSend]);
 
