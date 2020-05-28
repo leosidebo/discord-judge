@@ -25,5 +25,7 @@ client.on('message', message => {
 
     if(command === 'judge') {
         client.commands.get('judge').execute(message, args);
+    } else if (command === 'judgecommands') {
+        client.commands.get('judgecommands').execute(message);
     }
 })
