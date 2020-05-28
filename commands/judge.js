@@ -3,13 +3,12 @@ module.exports = {
     description: 'Judge a user',
     execute(message, args) {
         const links = require('../imageLinks.json').links;
-        const linkToSend = randomNumber(links.length)
-        const taggedUser = message.mentions.users.first(); // more work here
+        const linkToSend = randomNumber(links.length);
 
-        message.channel.send(links[linkToSend]);
+        message.channel.send(args[0] + ', your judgement is:\n' + links[linkToSend]);
 
         function randomNumber(number) {
-            randomizedNum = Math.floor(Math.random() * number);
+            let randomizedNum = Math.floor(Math.random() * number);
             return randomizedNum;
         }
     }
