@@ -1,3 +1,14 @@
 {
-    "links": ["https://i.imgur.com/RQXc3A2.png", "https://i.imgur.com/wbAcce6.png", "https://i.imgur.com/PGIly3i.jpg", "https://i.imgur.com/e3WGxBt.png"]
+  "templates": {
+    "standard": [
+      "https://i.imgur.com/RQXc3A2.png",
+      "https://i.imgur.com/wbAcce6.png",
+      "https://i.imgur.com/PGIly3i.jpg",
+      "https://i.imgur.com/e3WGxBt.png"
+    ],
+    "weeb": [
+      "https://i.imgur.com/YynnKve.png"
+    ]
+  },
+  "currentTemplate": "standard"
 }
