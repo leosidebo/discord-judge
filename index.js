@@ -29,5 +29,7 @@ client.on('message', message => {
         client.commands.get('judgecommands').execute(message);
     } else if (command === 'judgetemplate') {
         client.commands.get('judgetemplate').execute(message, args);
+    } else if (command === 'judgeinfo') {
+        client.commands.get('judgeinfo').execute(message);
     }
 })
