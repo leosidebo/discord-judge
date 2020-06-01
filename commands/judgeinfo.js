@@ -13,7 +13,7 @@ module.exports = {
             .setAuthor('The Judge')
             .addField(
                 { name: 'Current template', value: currentTemplate },
-                { name: 'Images in template', value: links.length }
+                { name: 'Images in template', value: links.length },
             )
             .setTimestamp();
         
